@@ -1,0 +1,23 @@
+#par1 {
+    color:darkturquoise; background-color: sandybrown; opacity: 0.5;
+}
+
+#par2 {
+    color: rgb(0, 206, 209); background-color: rgba(255, 250, 100, 0.5);
+}
+
+#par3 {
+    color: #00ced1; background-color: #ff1256;
+}
+
+body {
+    background-color: tomato; opacity: 1;
+}
+
+#img {
+    width:100%; opacity: 0.5;
+}
+
+#img2 {
+    background-color: rgba(255, 250, 100, 0.1); width:100%;
+}

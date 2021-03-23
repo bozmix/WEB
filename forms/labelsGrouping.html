@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+<body>
+    <form action="handle-upload.html" method="get">
+        <fieldset>
+            <legend>Personal data</legend>
+            <label>Name:<br>
+            <input type="text" size="20" maxlength="20" name="Name"></label><br>
+            <label>Surname:<br><input type="text" name="Surname" size="20" maxlength="20"> </label>
+            <br><label>E-mail:<br>
+            <input type="email" name="email" size="20" maxlength="40"></label>
+            <br>
+            <label>Phone number:<br>
+            <input type="text" name="phone" size="20" maxlength="30">
+            </label>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Location</legend>
+            <label>City:<br>
+            <input type="text" name="city" size="20" maxlength="30">
+            </label>
+            <br>
+            <label>Street:<br>
+            <input type="text" name="street" size="20" maxlength="40">
+            </label>
+            <br>
+            <label>Street Number:<br>
+            <input type="text" name="streetnumber" size="3" maxlength="4">
+            </label>
+        </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Event Info</legend>
+            <label>Select ocassion:<br><select name="event">
+                <option value="birthday">Birthday</option>
+                <option value="wedding" selected="selected">Wedding</option>
+                <option value="company">Company</option>
+            </select></label>
+            <br>
+            <label>Number of guests:<br>
+            <input type="text" name="guests" size="3" maxlength="3" placeholder="100">
+            </label>
+        </fieldset>
+        <br>
+        <input type="reset" value="discard" name="reset">
+        <input type="submit" value="make reservation" name="submit">
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+p {
+    background-color: yellow;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.first {
+    border-style: dashed;
+    border-color: red;
+    padding: 50px;
+}
+
+.third {
+    border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+    padding: 50px;
+}
+
+.second {
+    border-color: green;
+    padding: 50px 0 0 0;
+}
