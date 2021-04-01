@@ -1,0 +1,27 @@
+table {
+    margin: 0 auto;
+    border: none;
+    border-width: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    color: blue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.header {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.odd {
+    background-color: rgba(224, 209, 209, 0.5);
+}
+
+tr:hover {
+    background-color: yellow;
+}
