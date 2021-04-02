@@ -6,9 +6,9 @@
 form {
     background-color: rgb(235, 228, 228);
     width: 400px;
-    height: 490px;
+    height: 540px;
     margin: 20px auto;
-    text-align: center;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -21,6 +21,9 @@ span {
 
 
 input {
+    display:inline-block;
+    position: relative;
+    left: 0px;
     margin: 0 auto 20px auto;
     border-radius: 5px;
     border-color: white;
@@ -34,3 +37,17 @@ h1 {
     text-align: center;
 }
 
+label {
+    position: relative;
+    left: 40px;
+}
+
+#submit {
+    display: block;
+    width: 320px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
