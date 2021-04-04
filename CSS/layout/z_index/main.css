@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.st {
+    background-color: red;
+}
+
+.nd {
+    background-color: yellow;
+}
+
+.rd {
+    background-color: green;
+}
+
+#st {
+    position: relative;
+}
+
+#nd {
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
+
+#rd {
+    position: relative;
+    top: -200px;
+    left: 200px;
+}
+
+#fst {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+#snd {
+    position: absolute;
+    right: 100px;
+    top: 1302px;
+    z-index: 1;
+}
+
+#trd {
+    position: absolute;
+    right: 200px;
+    top: 1402px;
+    z-index: 0;
+}

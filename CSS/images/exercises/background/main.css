@@ -1,0 +1,14 @@
+/*body {
+    background-image: url(https://previews.123rf.com/images/chikenbrave/chikenbrave1812/chikenbrave181200044/115467745-gold-marble-texture-seamless-background-glitter-abstract-golden-luxury-pattern-liquid-fluid-marbling.jpg);
+    background-attachment: fixed;
+}*/
+
+body {
+    
+    background-image: url(https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-attachment: scroll;
+    background-size: cover;
+}

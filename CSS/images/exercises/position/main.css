@@ -1,0 +1,18 @@
+#first {
+    height: 200px;
+    float: right;
+}
+
+#second {
+    display: block;
+    clear: both;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+#third {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
