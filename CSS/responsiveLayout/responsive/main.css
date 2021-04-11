@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 576px){
+    
+
+.container {
+    margin: 0 auto;
+}
+
+img {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    font-weight: lighter;
+}
+
+.headerimage {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.himage {
+    margin: 0 auto;
+    display: block;
+    border: solid 1px gray;
+    border-radius: 5px;
+    padding: 10px;
+    width: 54%;
+}
+
+ul {
+    text-align: center;
+    border: solid 1px gray;
+    width: 49%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 0;
+    font-weight: normal;
+    border-bottom: solid 1px gray;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.active {
+    color: white;
+    background-color: rgb(59, 102, 194);
+    font-weight: bolder;
+}
+
+.post1 {
+    border: solid 1px gray;
+    padding: 10px;
+    border-radius: 5px;
+    width: 49%;
+    text-align: center;
+}
+
+.post2 {
+    border: solid 1px gray;
+    padding: 10px;
+    border-radius: 5px;
+    width: 49%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.post3 {
+    border: solid 1px gray;
+    padding: 10px;
+    border-radius: 5px;
+    width: 49%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+}
+
+@media only screen and (min-width: 577px){
+
+    .container {
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .title {
+        margin: 0 auto;
+        text-align: left;
+        padding: 20px;
+        font-weight: 500;
+    }
+    
+    .headerimage {
+        width: 100%;
+        float: left;
+    }
+    
+    .himage {
+        margin: 0 auto;
+        display: block;
+        border: solid 1px gray;
+        border-radius: 5px;
+        padding: 10px;
+        width: 110%;
+    }
+    
+    ul {
+        text-align: center;
+        width: 49%;
+        margin: 20px auto;
+        border-radius: 5px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    
+    li {
+        list-style: none;
+        padding: 10px;
+        font-weight: normal;
+        color: rgb(59, 102, 194);
+        display: inline-block;
+        border-radius: 5px;
+    }
+    
+  
+    
+    .active {
+        color: white;
+        background-color: rgb(59, 102, 194);
+        font-weight: normal;
+    }
+    
+    .post1 {
+        border: solid 1px gray;
+        padding: 5px 0;
+        border-radius: 5px;
+        width: 100%;
+        text-align: center;
+        display:inline-block;
+        margin-top: 30px;
+    }
+
+    .image1 {
+        float: left;
+        width: 30%;
+        padding-left: 5px;
+    }
+
+    .post1 p {
+        display: inline-block;
+        width: 65%;
+        text-align: center;
+    }
+    
+    .post2 {
+        border: solid 1px gray;
+        padding: 5px 0;
+        border-radius: 5px;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    .image2 {
+        width: 30%;
+        float: left;
+        padding-left: 5px;
+    }
+  
+    .post2 > p {
+        width: 65%;
+        display: inline-block;
+    }
+  
+    
+    .post3 {
+        border: solid 1px gray;
+        padding: 5px 0;
+        border-radius: 5px;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .image3 {
+        width: 30%;
+        float: left;
+        padding-left: 5px;
+    }
+
+    .post3 > p {
+        display: inline-block;
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .container {
+        margin: 0 auto;
+        width: 90%;
+    }
+    
+    img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .title {
+        margin: 0 auto;
+        text-align: left;
+        padding: 20px;
+        font-weight: 500;
+    }
+    
+    .headerimage {
+        width: 100%;
+        float: left;
+    }
+    
+    .himage {
+        margin: 0 auto;
+        display: block;
+        padding: 10px;
+        width: 110%;
+    }
+    
+    ul {
+        text-align: center;
+        width: 49%;
+        margin: 20px auto;
+        border-radius: 5px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    
+    li {
+        list-style: none;
+        padding: 10px;
+        font-weight: normal;
+        color: rgb(59, 102, 194);
+        display: inline-block;
+        border-radius: 5px;
+    }
+    
+    .active {
+        color: white;
+        background-color: rgb(59, 102, 194);
+        font-weight: normal;
+    }
+    
+    .post1 {
+        padding: 5px 0;
+        width: 33%;
+        text-align: center;
+        margin-top: 30px;
+        float: left;
+    }
+
+    .image1 {
+        float: left;
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .post1 p {
+        clear: left;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .post2 {
+        padding: 5px 0;
+        width: 33%;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 5%;
+        overflow: hidden;
+        float: left;
+    }
+
+    .image2 {
+        width: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+  
+    .post2 > p {
+        width: 100%;
+        display: inline-block;
+    }
+  
+    
+    .post3 {
+        padding: 5px 0;
+        width: 33%;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 5%;
+        overflow: hidden;
+        float: left;
+    }
+
+    .image3 {
+        width: 100%;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .post3 > p {
+        display: inline-block;
+        width: 100%;
+    }   
+}

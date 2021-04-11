@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.header {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.title {
+    float: left;
+    padding-left: 40px; 
+    margin-top: -50px;  
+}
+
+.about {
+    width: 45%;
+    margin-top: 100px;
+    padding-right: 10px;
+    float: left;
+}
+
+.posts {
+    width: 54%;
+    padding-left: 10px;
+    border-left: solid 2px black;
+    margin-top: 100px;
+    float: left;
+}
+
+.para0 {
+    clear: left;
+    }
+
+h3 {
+    padding: 0 0 20px 0;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.post1 {
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: normal;
+}
