@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "roboto";
+    src: url(./assets/fonts/FontAwesome.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header p span {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    color: orange;
+}
+
+.header p {
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+
+.menu {
+    background-color: skyblue;
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 10px auto;
+
+}
+
+.menu ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+.bckimage {
+    background-image: url(./assets/images/banner3.jpg);
+    width: 100%;
+    background-size: cover;
+    margin-top: 25px;
+}
+
+.bckimage h1 {
+    margin: 10px auto 50px auto;
+    padding: 100px 0 0 0;
+    color: white;
+    width: 90%;
+}
+
+.button {
+    border: none;
+    background-color:rgb(37, 132, 170);
+    font-weight: normal;
+    font-size: large;
+    border-radius: 20px;
+    color: white;
+    width: 120px;
+    padding: 10px 0;
+    margin-bottom: 100px;
+}
+
+.whoweare {
+    margin: 20px auto 20px auto;
+    width: 90%;
+}
+
+.image1 {
+    width: 250px;
+}
+
+.whoweare h3 {
+    text-align: left;
+    color: skyblue;
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
+
+.whoweare p {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.whoweare ul {
+    width: 90%;
+    text-align: left;
+    padding: 10px 0 10px 20px;
+}
+
+.whoweare li {
+    list-style-image: url(./assets/images/arrow_bullet.png);
+    padding: 10px 0 10px 0;
+}
+
+.image {
+    width: 90%;
+}
+
+.image img {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+.opinion {
+    overflow: hidden;
+    width: 90%;
+    background-color: skyblue;
+    margin: 10px auto;
+    color: white;
+    padding: 10px;
+}
+
+.profile {
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 3px;
+    width: 30%;
+    float: left;
+}
+
+.opinion h5 {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    padding-left: 35%;
+    text-align: left;
+}
+
+.opinion p {
+    clear: left;
+    text-align: left;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.stars {
+    float: left;
+    padding-left: 5%;
+}
+
+.getintouch {
+    margin: 70px auto 0 auto;
+    float: left;
+}
+.heading {
+    clear: both;
+    margin: 0 auto;
+}
+.contactus {
+    clear: left;
+}
+
+.mailus {
+    clear: left;
+}
+/*
+.contactus {
+    width: 50%;
+    background-color: turquoise;
+    margin-top: 30px;
+    color: white;
+    font-size: 1.25rem;
+    height: 256x;
+}
+
+.contactus h5 {
+    font-size: 1.75rem;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.contactus img {
+    padding: 20px;
+    float: left;
+}
+
+.letter {
+    padding: 20px;
+    margin: 0 auto;
+    clear: left;
+}
+
+.contactus p {
+    padding: 30px 0 0 10px;
+}
+
+.mail {
+    margin-top: 35px;
+}
+
+.conectus {
+    width: 50%;
+    background-color: rgb(226, 77, 164);
+    margin-top: 30px;
+    color: white;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -263px;
+    right: -39%;
+    height: 256px;
+}
+
+.conectus h5 {
+    font-size: 1.75rem;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.conectus img {
+    width: 90%;
+    padding-top: 20px;
+}
+
+.address {
+    width: 50%;
+    background-color: rgb(53, 108, 180);
+    float: left;
+}
+*/
+
+@media only screen and (min-width: 768px){
+
+.header {
+    background-image: url(./assets/images/banner3.jpg);
+}
+
+.header p {
+    text-align: left;
+    padding: 20px 0 0 20px;
+    color: white;
+    float: left;
+}
+
+.header p span {
+    border: white solid 3px;
+    border-right: none;
+}
+
+.menu {
+    background-color: transparent;
+    float: right;
+    margin-top: -40px;
+    
+}
+
+.menu ul  {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+}
