@@ -1,0 +1,12 @@
+p {
+  font-size: 32px;
+  background-color: cornflowerblue;
+  color: gray;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: underline; }
+  p:hover {
+    color: green;
+    background-color: yellow; }
+
+/*# sourceMappingURL=main.css.map */

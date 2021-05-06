@@ -1,0 +1,19 @@
+$shadows: 2px 2px 2px red;
+$boxShadow: 5px 5px black;
+
+
+@mixin textShadow ($shadows) {
+    text-shadow: $shadows;
+}
+
+@mixin boxShadow ($boxShadow){
+    box-shadow: $boxShadow;
+}
+
+.first {
+    @include textShadow(5px 5px 2px green);
+}
+
+.second {
+    @include boxShadow($boxShadow);
+}
