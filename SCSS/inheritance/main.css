@@ -1,0 +1,16 @@
+body {
+  width: 100%; }
+
+.first, .second, .third {
+  height: 100px;
+  width: 90%;
+  background-color: darkgray;
+  border: red 3px solid; }
+
+.second {
+  border-color: blue; }
+
+.third {
+  border-color: green; }
+
+/*# sourceMappingURL=main.css.map */
