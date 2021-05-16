@@ -1,22 +1,39 @@
+@import 'mixins';
 .nav {
     background-color: $blueish;
     p {
-        color: white;
+        @include navBarFont;
+        margin-top: 1rem;
     }
     #navbarDropdown {
         color: white;
         img {
-            float: left;
-            width: 49%;
-            padding: 0 0 0 10px;
+            display: inline-block;
+            margin: 0;
+            width: 31.25%;
         }
         p {
-            float: left;
-            width: 49%;
-            padding: 10px;
+            display: inline-block;
+            margin: 0;
         }
     }
     .nav-item {
         background-color: $greenish;
+    }
+    .navigation {
+        margin: 20px 0;
+        .nav-link {
+            padding: 0 0 0 5px;
+
+        }
+
+        ul {
+            background-color: $blueish;
+            border: none;
+            border-radius: 0;
+            li a {
+                @include navBarFont;
+            }
+        }
     }
 }
