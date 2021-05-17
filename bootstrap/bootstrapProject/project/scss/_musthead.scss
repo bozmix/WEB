@@ -1,0 +1,47 @@
+.profile {
+    background-color: $greenish;
+    @include navBarFont;
+    align-items: center;
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    .star img {
+        width: 100%;
+    }
+
+    .text {
+        padding-right: 0;
+    }
+}
+
+.about {
+    @include navBarFont;
+    background-color: $greenish;
+    margin-top: 40px;
+    h2 {
+        margin: 40px 0 20px 0;
+    }
+    img {
+        width: 60%;
+    }
+    button {
+        background-color: $greenish;
+        @include navBarFont;
+        border: white solid 2px;
+        margin-bottom: 60px;
+        margin-top: 30px;
+        img {
+            width: 12%;
+        }
+        p {
+            margin: 0 0 0 5px;
+        }
+    }
+}
