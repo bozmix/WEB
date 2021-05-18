@@ -75,4 +75,21 @@
     .about button p {
       margin: 0 0 0 5px; }
 
+.contact img {
+  width: 60%; }
+.contact .button {
+  background-color: #18bc9c;
+  border: 0px;
+  color: white;
+  font-weight: bolder; }
+.contact input {
+  color: gray;
+  border: 0;
+  border-bottom: gray 1px solid;
+  margin: 10px 0; }
+.contact textarea {
+  color: gray;
+  border: 0;
+  border-bottom: gray 1px solid; }
+
 /*# sourceMappingURL=main.css.map */

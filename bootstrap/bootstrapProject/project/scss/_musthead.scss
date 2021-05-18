@@ -45,3 +45,26 @@
         }
     }
 }
+
+.contact {
+    img {
+        width: 60%;
+    }
+    .button {
+        background-color: $greenish;
+        border: 0px;
+        color: white;
+        font-weight: bolder;
+    }
+    input {
+        color: gray;
+        border: 0;
+        border-bottom: gray 1px solid;
+        margin: 10px 0;
+    }
+    textarea {
+        color: gray;
+        border: 0;
+        border-bottom: gray 1px solid;
+    }
+}
