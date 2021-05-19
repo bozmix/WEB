@@ -4,6 +4,7 @@
     align-items: center;
     img {
         width: 100%;
+        margin-top: 40px;
     }
 
     h1 {
@@ -86,5 +87,17 @@
         border: white solid 1px;
         background-color: white;
         border-radius: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    span {
+        display: block;
+    }
+    .footer {
+        img {
+        width: 46.19px;
+        margin-top: 10px;
+        }
     }
 }

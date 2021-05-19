@@ -37,3 +37,10 @@
         }
     }
 }
+
+@media only screen and (min-width: 768px){
+    .nav .nav-item {
+        background-color: $blueish;
+        border: white solid 1px;
+    }
+}
