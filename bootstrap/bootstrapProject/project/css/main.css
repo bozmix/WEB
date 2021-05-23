@@ -116,11 +116,14 @@
   .footer .bit {
     color: gray; }
   .footer img {
-    width: 10%;
+    width: 46.19px;
     height: 46.19px;
     border: white solid 1px;
     background-color: white;
     border-radius: 50%; }
+
+.details {
+  text-align: center; }
 
 @media only screen and (min-width: 768px) {
   span {
@@ -128,6 +131,15 @@
 
   .footer img {
     width: 46.19px;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+
+  .details {
+    text-align: justify; } }
+@media only screen and (min-width: 992px) {
+  span {
+    display: inline; }
+
+  .details {
+    text-align: justify; } }
 
 /*# sourceMappingURL=main.css.map */
