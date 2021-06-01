@@ -11,3 +11,17 @@ stored value.
 Modify functions to work with sessionStorage instead of localStorage.
 Try same scenario as with localStorage to examine data livecycle.
 */
+
+function localData (){
+    var data = window.localStorage;
+    return data;
+}
+
+function readData (){
+    var output = localData();
+    if (output){
+        return console.log(otput);
+    } else {
+        return console.log("There is no data");
+    }
+}
