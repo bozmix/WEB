@@ -12,17 +12,17 @@ Modify functions to work with sessionStorage instead of localStorage.
 Try same scenario as with localStorage to examine data livecycle.
 */
 function setData (p1, p2, p3){
-    localStorage.setItem('first argument', p1);
-    localStorage.setItem('second argument',p2);
-    localStorage.setItem('third argument', p3);
+    sessionStorage.setItem('first argument', p1);
+    sessionStorage.setItem('second argument',p2);
+    sessionStorage.setItem('third argument', p3);
 }
 
 
 
 function readData (){
-    var output1 = localStorage.getItem('first argument');
-    var output2 = localStorage.getItem('second argument');
-    var output3 = localStorage.getItem('third argument');
+    var output1 = sessionStorage.getItem('first argument');
+    var output2 = sessionStorage.getItem('second argument');
+    var output3 = sessionStorage.getItem('third argument');
     if (output1 != null || output2 != null || output3 != null){
         return console.log(output1, output2, output3);
     } else {
@@ -31,7 +31,7 @@ function readData (){
 }
 
 function removeData (){
-    window.localStorage.clear();
+    window.sessionStorage.clear();
 }
 
 

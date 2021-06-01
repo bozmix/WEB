@@ -9,11 +9,13 @@ Remove the class from that element, and then select the first &lt;li&gt; element
 first unordered list using node relations.
 Apply class to that newly selected &lt;li&gt; element
 */
+var d = document.querySelector("#active");
+d.className = "active";
 
 function selectLi (){
-    var d = document.querySelector(".active");
+    
+    var c = d.parentElement.parentElement.previousElementSibling.firstElementChild.firstElementChild;
+    c.className = 'active';
     d.className = '';
-    var c = d.parentElement.parentElement.previousSibling
-
 }
 selectLi();
