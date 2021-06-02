@@ -61,7 +61,14 @@ findMaxValue(arr);
 /*
 Date
 ● Print out the whole date object in the console.
-
 ● Print out the current time in the console.
 ● Print out the current date in the console.
 */
+var date = new Date();
+console.log(date);
+
+var h = date.getHours(); var min = date.getMinutes(); var s = date.getSeconds();
+console.log(h + ':' + min + ':' + s);
+
+var d = date.getDate(); var m = date.getMonth() + 1; var y = date.getFullYear();
+console.log(d + '.' + m + '.' + y + '.');
