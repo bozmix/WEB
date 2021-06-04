@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+}
+
+input {
+    width: 90%;
+    height: 32px;
+    margin: 10px auto;
+}
+
+.submit {
+    width: auto;
+    padding: 5px;
+    margin: 30px auto;
+    background-color: blue;
+    color: white;
+}
+
+.empty {
+    border: red solid 2px;
+}
+
