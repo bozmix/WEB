@@ -1,0 +1,23 @@
+form {
+    height: 200px;
+    background-color: rgba(14, 14, 71, 0.836);
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+button {
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+.second{
+    background-color: rgb(207, 207, 79);
+}
+
+.background {
+    background-color: gray;
+}
