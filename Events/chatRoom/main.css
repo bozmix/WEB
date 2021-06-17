@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(223, 215, 215);
+    width: 90%;
+    margin: 10px auto;
+}
+
+form {
+    margin: 10px auto;
+}
+textarea {
+    margin: 10px auto;
+    display: block;
+    width: 90%;
+    height: 80vh;
+    border: none;
+}
+input {
+    display: block;
+    margin: 0 auto;
+}
+.submit {
+    width: 18%;
+    position: relative;
+    left: 1%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px 0;
+}
+
+.message {
+    margin: 0 auto;
+    width: 70%;
+    float: left;
+    position: relative;
+    left: 5%;
+    border: none;
+    padding: 5px 0;
+}
+
+p {
+    background-color: rgb(223, 215, 215);
+    width: auto;
+    margin: 10px;
+    padding: 5px;
+}
