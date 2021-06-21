@@ -1,13 +1,12 @@
 
 var d = document.getElementById('Submit');
-var i = document.getElementsByClassName('message');
+var i = document.getElementById('message');
 var t = document.getElementById('chat');
-var p;
-var c;
+
 d.onclick = function(){
-    p = document.createElement('p');
-    c = i.value;
-    p.value = c;
+    var c = document.createTextNode(i.value);
+    var p = document.createElement('p');
+    p.appendChild(c);
     t.appendChild(p);
-    i.value = "";
+    i.value = '';
 }
