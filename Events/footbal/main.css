@@ -1,0 +1,14 @@
+#field {
+    background-image: url(./resources/field.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+#player {
+    width: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

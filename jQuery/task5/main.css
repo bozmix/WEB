@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+.wraper {
+    width: 33%;
+}
+
+.first, .second {
+    display: flex;
+}
+
+.selected {
+    border: solid 2px red;
+}
