@@ -1,16 +1,22 @@
 
 
-var c = localStorage.getItem('repositories');
-var e = JSON.parse(c);
-console.log(e);
+var c = localStorage.getItem('url');
+var f = document.querySelector('.repo');
 
-e.forEach(function(el){
-    var c = document.querySelector('.repo');
-    var d = document.createElement('div');
-    d.setAttribute('class', 'repositorium');
-    var date = new Date (el.created_at);
-    var dateOutput = date.getFullYear() + '.' + date.getMonth() + '.' + date.getDay() + '.';
-    d.innerHTML = '<h3>' + el.name + '</h3>' + '<p>' + el.description + '</p>' + '<p>' + dateOutput + '</p>';
-    c.appendChild(d);
-    localStorage.clear();
+
+$.ajax(c, {
+    success: function(data){
+        data.forEach(function(el){
+            var d = document.createElement('div');
+            d.setAttribute('class', 'repositorium');
+            var img = document.createElement('img');
+            img.setAttribute('src', './github-icon-png-15.jpg');
+            var date = new Date (el.created_at);
+            var dateOutput = date.getFullYear() + '.' + (date.getMonth() + 1) + '.' + date.getDate() + '.';
+            d.innerHTML = '<h3> Repository Name: ' + el.full_name + '</h3>' + '<p>Repository description: ' + el.description + '</p>' + '<p>Repository creation date: ' + dateOutput + '</p>' + '<p>Used language: ' + (el.language || 'Unknown') + '</p>';
+            d.appendChild(img);
+            f.appendChild(d);
+        })
+    }
 })
+localStorage.clear();

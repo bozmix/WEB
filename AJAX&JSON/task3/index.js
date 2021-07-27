@@ -3,8 +3,19 @@ var resultsDisplay = document.getElementById('results');
 var api = 'https://api.github.com/search/users?q=';
 var result;
 var items;
+
+function otherFunction (event){
+    var id = event.target.getAttribute('id');
+    var index = parseInt(id.slice(6));
+    var url = 'https://api.github.com/users/';
+    var username = items[index].login;
+    var input1 = username + '/repos';
+    var inputValue = url + input1;
+    localStorage.setItem('url', inputValue)
+    
+}
  
-export const someFunction =(event) =>{
+const someFunction =(event) =>{
     if (event.keyCode === 13){
         var inputValue = input.value;
         $.ajax(api + inputValue, {
@@ -36,23 +47,6 @@ export const someFunction =(event) =>{
         });
     }
 }
-
-export function otherFunction (event){
-    var id = event.target.getAttribute('id');
-    var index = parseInt(id.slice(6));
-    var url = 'https://api.github.com/users/';
-    var username = items[index].login;
-    var input1 = username + '/repos';
-    var inputValue = url + input1;
-    $.ajax(inputValue, {
-        success: function(data){
-            var d = JSON.stringify(data);
-            localStorage.setItem('repositories', d)
-        }
-    })
-}
-
-
 
 
 window.addEventListener('keypress', someFunction);
