@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+footer p {
+  padding: 30px; }
+
+.TVShows {
+  display: flex;
+  justify-content: center; }
+  .TVShows img {
+    width: 100%;
+    margin: 0; }
+  .TVShows h4 {
+    color: #1272cc;
+    margin: 10px 0 10px 10px;
+    text-decoration: none; }
+  .TVShows .col-3 {
+    border: #cecaca solid 1px;
+    margin: 10px;
+    padding: 0; }
+  .TVShows a {
+    text-decoration: none; }
+
+.show {
+  display: flex;
+  justify-content: center; }
+  .show .image img {
+    width: 100%; }
+
+.searchResults {
+  width: 157px;
+  position: absolute;
+  right: 32px;
+  top: 47px; }
+
+.searchList {
+  background-color: whitesmoke;
+  list-style: none; }
+  .searchList li {
+    border-bottom: solid 1px #e2d5d5; }
+    .searchList li a {
+      text-decoration: none;
+      color: black; }
+
+/*# sourceMappingURL=main.css.map */

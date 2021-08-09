@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    p {
+        padding: 30px;
+    }
+}
+
+.TVShows {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        margin: 0;
+    }
+    h4 {
+        color: rgb(18, 114, 204);
+        margin: 10px 0 10px 10px;
+        text-decoration: none;
+    }
+    .col-3 {
+        border: rgb(206, 202, 202) solid 1px;
+        margin: 10px;
+        padding: 0;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.show {
+    display: flex;
+    justify-content: center;
+    .image {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.searchResults {
+    width: 157px;
+    position: absolute;
+    right: 32px;
+    top: 47px;
+}
+
+.searchList {
+    background-color: whitesmoke;
+    list-style: none;
+    li {
+        border-bottom: solid 1px rgb(226, 213, 213);
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
